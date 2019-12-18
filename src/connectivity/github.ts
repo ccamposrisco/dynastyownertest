@@ -1,4 +1,4 @@
-import axios, {AxiosInstance} from "Axios";
+import axios, {AxiosInstance} from "axios";
 import dotenv from "dotenv";
 
 class Github {
