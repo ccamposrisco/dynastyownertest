@@ -1,0 +1,21 @@
+<h1>Commits from my repository</h1>
+<table class="table">
+  <thead>
+    <th>Owner</th>
+    <th>Date</th>
+    <th>Message</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of commitsData">
+      <td>
+        {{ data.authorId }}
+      </td>
+      <td>
+        {{ data.date }}
+      </td>
+      <td>
+        {{ data.message }}
+      </td>
+    </tr>
+  </tbody>
+</table>
